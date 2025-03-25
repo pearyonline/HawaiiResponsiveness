@@ -80,3 +80,28 @@ nav {
     font-size: 2em;
     cursor: pointer;
 }
+
+@media (min-width: 600px)
+{
+    body{
+        background-color: #ff0000;
+    }
+
+    .caption {
+        display:block;
+    }
+
+    .card {
+        width: 48%;
+        display: inline-block;
+    }
+    .menu-icon{
+        display: none;
+    }
+    nav{
+        display:block;
+        .menu li {
+            display: inline-block;
+        }
+    }
+}
